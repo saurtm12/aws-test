@@ -1,10 +1,5 @@
-from requests_aws4auth import AWS4Auth
 import boto3
-import requests
-import time
-import json
 import sys
-
 
 def upload_to_s3(file_name, bucket_name, s3_key):
     """Uploads file to S3"""
